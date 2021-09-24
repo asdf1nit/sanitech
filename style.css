@@ -1,0 +1,142 @@
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* padded section */
+  .pad-section {
+    padding: 50px 0;
+  }
+  /* vertical-centered text */
+
+  .text-vcenter a{
+    font-weight: 700;
+    margin: 0;
+    padding: 20px;
+    /* top: 50%; */
+  }
+
+  .mission{
+    font-size: 1.6em;
+  }
+  .about{
+    font-size: 1.2em;
+  }
+  /* additional sections */
+  @media only screen and (min-width: 1180px){
+    #home{
+      background-image: url(/images/coopersanitech.jpg);
+      background-attachment: fixed;
+      background-position: fill;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-y: 50px;
+      background-color: #4d4d4d67;
+      display: table;
+      height: 80vh;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+    }
+    .text-vcenter {
+      display: block;
+      position: relative;
+      text-align: center;
+      top: 30vw;
+    }
+    /* .service-height{
+      height: 400px;
+      padding-top: 20px;
+    } */
+  }
+
+  @media only screen and (max-width: 1180px){
+    #home{
+      background-image: url(/images/coopersanitech.jpg);
+      background-attachment: fixed;
+      background-position: fill;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-y: 50px;
+      background-color: #4d4d4d67;
+      display: table;
+      height: 70vw;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+    }
+    .text-vcenter {
+      display: block;
+      position: relative;
+      text-align: center;
+      top: 45vw;
+    }
+    .service-height{
+      padding-top: 20px;
+    }
+  }
+  #services, #contact {
+    background-color: #306d9f;
+    color: #ffffff;
+  }
+  #services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+  }
+  #information {
+    background-image: url(/images/coopersanitech.jpg);
+    background-attachment: fixed;
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #4d4d4d67;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    text-align: center;
+  }
+  #information .panel {
+    opacity: 0.95;
+    margin-top: 10%;
+    
+  }
+  footer {
+    padding: 20px 0;
+  }
+  footer .glyphicon, .call {
+    display: block;
+    color: #333333;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  footer p{
+    padding-top: 20px;
+  }
+  footer .glyphicon:hover {
+    color: #306d9f;
+  }
+  .submit{
+    display: block;
+    margin-top: 20px;
+  }
+  .captcha{
+    display: block;
+    margin-top: 20px;
+  }
